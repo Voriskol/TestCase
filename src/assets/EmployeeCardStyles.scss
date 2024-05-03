@@ -1,0 +1,40 @@
+.employee__card {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: 240px;
+    height: 70px;
+    box-shadow: 0px 0px 7px 1px #e8e5e5;
+  }
+  .employee__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .employee__img {
+    max-width: 70px;
+  }
+  
+  .employee__name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  .employee__card:hover {
+    cursor: pointer;
+  }
+  
+  .employee__info {
+    padding-left: 10px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .employee__info:hover {
+    background-color: #e0e0e0;
+    transition: 0.3s;
+  }
