@@ -2,8 +2,8 @@
   font-family: 'Montserrat';
   src:
     local('Montserrat'),
-    url('./fonts/Montserrat-VariableFont_wght.ttf') format('truetype'),
-    url('./fonts/Montserrat-Italic-VariableFont_wght.ttf') format('truetype');
+    url('./fonts/Montserrat-VariableFont_wght.ttf') format('ttf'),
+    url('./fonts/Montserrat-Italic-VariableFont_wght.ttf') format('ttf');
 }
 
 * {
@@ -12,7 +12,6 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
-
 
 .app {
   display: flex;
